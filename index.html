@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Use of HTML reference </title>
+	<link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+	<center><h1> Serveral references</h1></center>
+	<!-- Spacing-->
+	<h2>Several Spacing</h2>
+	<p>&amp;nbsp; means a single space</p>
+	<p>&lt;pre&gt; use for my own spacing,Just like how i want </p>
+	<p>&lt;br&gt; means line closing.starts from next line</p>
+
+	<!-- using abbreviation-->
+	<h2>Abbreviation</h2>
+	<p>The <abbr title="world health organization">WHO</abbr> was established in 1<sup>st</sup>month of 1948
+	<!--Using address-->
+	<h2>Address</h2>
+	<address>
+		This is written by <a href="https://twitter.com/Farhanabir20" target="_blank">Farhan Abir</a><br>
+		Visit me at :Shikhbeshobai <br>
+		Location: Banani,Dhaka-1230 
+	</address>
+	<!--area bujhi nai kisu-->
+	<h2>Area</h2>
+	<!--article-->
+	<h2>Article</h2>
+	<article>
+		<h4>Article tag</h4>
+		<p>This tag is recently publushed in HTML 5</p>
+	</article>
+	<p><strong>Note</strong> :This tag is not supported in HTML's older version</p>
+	<!--Aside-->
+	<h2>Aside tag</h2>
+	<p>Recently Me with my wife visited Bali for our honeymoon </p>
+	<aside>
+		<h4>St.Martin</h4> 
+		<p>It is one of the most beautiful place in bangladesh.Its special beauty is it's seaside view</p>
+		<img src="all_images/st.martin.jpg" height="300" width="500" alt="St.martin">
+	</aside>
+	<!--audio control tag-->
+	<h2>Audio</h2>
+	<p>This one is really insteresting :D</p>
+	<audio controls>
+		<source src="music/sample.mp3">
+		</audio>
+	<!--base tag-->
+	<h2>Base tag</h2>
+	<p>The &lt;base&gt; tag specifies the base URL/target for all relative URLs in a document.
+	<p>There can be at maximum one &lt;base&gt; element in a document, and it must be inside the &lt;head&gt; element.</p>
+	<!--BDI tag-->
+	<h2>Bdi tag</h2>
+	<p>Isolate the usernames from the surrounding text-direction settings</p>
+	<ul>
+		<li>user <bdi>abir</bdi> : 60 points</li>
+		<li>user <bdi>إيان</bdi> : 90 points</li>
+	</ul>
+	<!--BDO tag-->
+	<h2>BDO tag</h2>
+	<p>BDO means Bi-Directional Override.Its main task is to replace the order from right to left</p>
+	<p>FARHAN will show here from right to left <bdo dir="rtl"> FARHAN </bdo></p>
+	<!--blockquote-->
+	<h2>Blockquote</h2>
+	<p>It used for using a resrource citing from another source</p>
+	<p>Here is a quote about life</p>
+		<blockquote cite="https://www.brainyquote.com/quotes/abraham_lincoln_145909?src=t_life">
+			I remember my mother's prayers and they have always followed me. They have clung to me all my life.
+		</blockquote>
+	<!--BUTTON-->
+	<h2>Using clickable button</h2>
+	<button type="button" onclick="alert('Hey There!')">Click me</button>
+	<!--Creating table-->
+	<h2>A Table</h2>
+	<table>
+		<caption><b>Monthly savings</b></caption>
+			<tr>
+				<th>Month</th>
+				<th>Earn</th>
+				<th>Expanse</th>
+				<th>Savings</th>
+				<th>Total Savings</th>
+			</tr>
+			<tr>
+				<td>January</td>
+				<td>20,000</td>
+				<td>15,000</td>
+				<td>5,000</td>
+
+			</tr>
+			<tr>
+				<td>February</td>
+				<td>20,000</td>
+				<td>18,000</td>
+				<td>2,000</td>
+				<td id="td1"><center>11,000</center></td>
+			</tr>
+			<tr>
+				<td>March</td>
+				<td>21,000</td>
+				<td>17,000</td>
+				<td>4,000</td>
+			</tr>
+			<tfoot id="tablefoot">
+				<tr>
+				<td>SUM</td>
+				<td>61,000</td>
+				<td>50,000</td>
+				<td>11,000</td>
+				</tr>
+			</tfoot>    		
+	</table>
+	<!-- Cite Tag-->
+	<h2>Cite Tag</h2>
+	<p>It defines a song, name ,book</p>
+	<p><cite>The Scream</cite> Written by someone in 1983</p>
+	<!-- Code tag-->
+	<h2>Several CODE tag</h2>
+	<samp> samp = This is a sample text</samp><br>
+	<code> coode = This is a computer code type text</code><br>
+	<kbd> kbd = Defines keyboard input</kbd><br>
+	<var> var = Defines a variable</var>
+	<!-- data tag-->
+	<h2>Using Machine readable data value</h2>
+	<p>A sample data table</p>
+	<ul>
+		<li data value = "1212">Chips</li>
+		<li data value = "1213">Coke</li>
+		<li data value = "1214">Burger</li>
+	</ul>
+	<!--dd tag-->
+	<h2>Using DD tag</h2>
+	<p>DL,DT,DD use together .Define list then define term then define description</p>
+	<dl>
+		<dt>2018</dt>
+		<dl>2018 was a great year.</dl>
+		<dt>2019</dt>
+		<dl>hope 2019 will be a better one</dl>
+	</dl>
+	<!-- Details tag-->
+	<h2>Details tag</h2>
+	<p>this tag is very important.By this tag Viewer can hide or show imformation on demand</p>
+	<details>
+		<summary>Click here if u want to know the details of me</summary>
+		<p><a href="https://twitter.com/Farhanabir20" target="_blank">Go here</a></p>
+		<p>U can also visit my linkedin account. <a href="https://www.linkedin.com/in/farhan-abir-814b95a4/" target="_blank">Go here</a></p>
+	</details>
+	<!-- FIgure Tag-->
+	<h2>Figure Tag</h2>
+	<p>Used to insert a image</p>
+	<figure>
+		<center><img src="all_images/sunrise.jpg" height="400px" width="80%" alt="Sunrise"></center>
+		<figcaption><center>Sunrise</center></figcaption>
+	</figure>
+	<!-- form-->
+	<h2>Creating FORM</h2>
+	<p>very important</p>
+	<form>
+		First name : <input type="text" name="First name"><br>
+		Last Name  : <input type="text" name="First name"><br>
+		Age        : <input type="number" name="Age"><br>
+		<input type="submit" value="Submit">
+	</form>
+	<!-- Footer-->
+	<h2>Footer Tag</h2>
+	<footer>
+		<p>posted by : Farhan Abir</p>
+	</footer>
+	<!--IFRAME-->
+	<h2>Iframe</h2>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/a3ICNMQW7Ok" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<!-- del and ins-->
+	<h2>Ins Del tag</h2>
+	<p>Price of this pen is <del>100</del><ins>95</ins></p>
+	<!-- labeling-->
+	<h2>lebel</h2>
+	<form>
+		<label for="male">Male</label>
+		<input type="radio" name="gender" id="male" value="male"><br>
+		<label for="female">Female</label>
+		<input type="radio" name="gender" id="female" value="female"><br>
+		<label for="other">Other</label>
+		<input type="radio" name="gender" id="other" value="other"><br>
+		<input type="submit" value="Submit">
+	</form>
+	<!-- define term-->
+	<h2>dfn tag</h2>
+	<p>It defines instances of a term</p>
+	<p><dfn>HTML</dfn> is a standard markup language</p>
+	<!-- progress tag and meter tag-->
+	<h2>Progress tag Meter tag</h2>
+	<p>use to show a progress or measure something</p>
+	Downloading progress:
+	<progress value="22" max="100"> </progress>
+	<p>displaying a meter</p>
+	<meter value=2 min="0" max="10">2 out of 10</meter><br>
+	<meter value="0.6">60%</meter>
+	<!-- Quotation tag -->
+	<h2>Quotation tag</h2>
+	<p>use to markup a quotation</p>
+	<p>WWF's goal is to: 
+		<q>Build a future where people live in harmony with nature.</q>
+	We hope they succeed.</p>
+	<!--tEMPLATE TAG-->
+	<h2>Template tag</h2>
+	<p>everything is hidden inside a template tag</p>
+	<!-- time tag-->
+	<p>We open at <time>10:00</time> in the morning</p>
+	<p>we have to go there on <time datetime="2020-02-14 20:00">valentines day</time></p>
+	<h2>WBR tag</h2>
+	<p>defines a possible line break</p>
+	<!-- FORM-->
+	<h2>Making a proper form</h2>
+	<form>
+		<fieldset>
+			<legend>Personal Information</legend>
+		First Name : <input type="text" name="FirstName"> <br>
+		Last Name : <input type="text" name="LastName"> <br>
+		Age :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="number" name="Age"> <br>
+		<input type="submit" value="Submit">
+		<button type="button">Click ME!</button> <br>
+		<p>Select ur gender</p>
+		<select>
+			<optgroup label="Heterosexual">
+			<option value="male">Male</option>
+			<option value="female">Female</option>
+			</optgroup>
+			<optgroup label="homosexual">
+			<option value="other">Other</option>
+			</optgroup>
+		</select>
+		<p>Another option for selection</p>
+		<input type="radio" name="gender" id="male" value="male">
+		<label for="male">Male</label><br>
+		<input type="radio" name="gender" id="female" value="female">
+		<label for="female">Female</label><br>
+		<input type="radio" name="gender" id="other" value="other">
+		<label for="other">Other</label><br>
+		<input list="Gender" name="gender">
+			<datalist id="Gender">
+				<option value="male">Male</option>
+				<option value="female">Female</option>
+				<option value="other">Other</option>
+			</datalist>
+		<input type="Submit">
+		</fieldset>
+	</form>
+	<!-- NAV-->
+	<h2>Nav</h2>
+	<nav>
+		<a href="CSS">css</a>
+	</nav>
+</body>
+</html>

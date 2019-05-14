@@ -1,0 +1,26 @@
+body{
+	background-color: rgb(100,100,200);
+}
+h1{
+	background-color: rgb(100,100,100);
+	display: inline;
+	text-align: center;
+}
+h2{
+	color: blue;
+}
+table{
+	border: 1px solid black;
+}
+th{
+	border: 1px solid black;
+}
+td{
+	border: 1px solid black;
+}
+#td1{
+	border: none;
+}
+#tablefoot{
+	color: purple;
+}
